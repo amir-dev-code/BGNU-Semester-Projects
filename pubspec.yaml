@@ -1,0 +1,58 @@
+name: app1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.15.2
+  cloud_firestore: ^5.0.1
+  grouped_list: ^5.1.2       # Date headers ke liye             
+  cached_network_image: ^3.3.1
+  # --- Standard Packages ---
+  intl: ^0.19.0
+  http: ^1.2.0
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.2
+  googleapis: ^13.0.0
+  googleapis_auth: ^1.6.0
+  url_launcher: ^6.3.0
+  cloudinary_public: ^0.23.1
+  flutter_launcher_icons: ^0.14.4
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  qr_flutter: ^4.1.0
+  fl_chart: ^0.66.0
+  
+  # --- Image Download & Viewer ---
+  dio: ^5.3.2
+  gal: ^2.3.0              # New & Better than gallery_saver
+  permission_handler: ^11.0.1
+  file_picker: ^8.0.0
+  firebase_messaging: ^15.2.10
+  flutter_local_notifications: ^17.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/drive_credentials.json
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.jpeg"
